@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*.maindiv{*/
+/*   height:1418px ;*/
+/*  width:100% ;*/
+/*}*/
+
+/*.mainphoto{*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*  flex-wrap: nowrap;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  align-content: stretch;*/
+/*}*/
+
+
+
+
+
+.ms{
+  display: inline-block;
+  margin: 10px;
+  color:white;
+  font-family: Roboto;
+  font-size:21px;
+
+}
+
+
+.haid {
+
+  /*background-image: url("https://scontent.fdac25-1.fna.fbcdn.net/v/t1.0-9/s960x960/96085546_1194469644233660_6678780518735020032_o.jpg?_nc_cat=111&_nc_sid=8024bb&_nc_ohc=Pdd_PEQDE74AX-dMtBJ&_nc_ht=scontent.fdac25-1.fna&_nc_tp=7&oh=33311882000e7111b3c07c236855705f&oe=5ED7FB3F");*/
+
+  justify-content: center;
+  align-items: center;
+
+}

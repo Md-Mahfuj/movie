@@ -1,0 +1,188 @@
+.img{
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Logo{
+    margin-right:700px;
+    margin-top:-330px;
+    color: white;
+}
+
+.nav{
+
+    margin-top:-40px;
+
+    margin-left:300px;
+}
+
+
+.watchsection{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+
+}
+
+
+.watchsectionbar{
+
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: stretch;
+    /*position:fixed;*/
+    margin-left:200px;
+
+}
+#premiere{
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+    margin-bottom:-10px;
+}
+#wonder{
+    font-family: Roboto;
+    font-size:30px;
+    color: white;
+
+
+}
+#Action{
+    font-family: Roboto;
+    font-size:10px;
+    color: white;
+    margin-top:-14px;
+
+
+}
+
+
+.watchsectionbutton{
+
+    border-radius: 36px;
+    border: 1px solid #0EB7D2;
+
+    /*text-color: white;*/
+
+
+
+}
+
+.watchsectionimg{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: stretch;
+    margin-right:160px;
+    margin-top:180px;
+
+
+
+
+
+
+}
+
+
+.watchsectionimg1{
+
+    width:90px;
+    height:60px ;
+    margin-left:20px;
+}
+
+
+/*one Layout complite*/
+
+.Layout2{
+
+    margin-top:50px;
+}
+
+.md{
+    /*background: red;*/
+    width:53%;
+    margin-left:200px;
+    /*border-radius: 10px;*/
+
+
+}
+
+.mk{
+
+
+    background: #61dafb;
+    width: 17.5%;
+}
+
+
+.trendingbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+}
+.ComingSoon{
+    /*display: inline-flex;*/
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
+    /*align-content: stretch;*/
+
+
+    margin-right: 218px;
+}
+
+.comingitem{
+    margin-right:45px;
+    font-family: Roboto;
+
+}
+
+.Trending{
+    font-family: Roboto;
+
+    margin-left: 220px;
+}
+
+#More{
+    font-family: Roboto;
+
+}
+
+
+.Trendingimg{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+
+}
+
+
+
+.TrendingList{
+
+    height:150px;
+    width:190px;
+}
