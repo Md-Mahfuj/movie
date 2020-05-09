@@ -1,16 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import 'antd/dist/antd.css';
-import "./Components/Home/Home.css"
-import Home from "./Page/Home";
-import RecentPlaying from "./Components/Home/RecentPlaying";
+import "./pages/home/Home.css"
+import Home from "./pages/home/Home";
+import RecentPlaying from "./components/RecentPlaying";
 
 function App() {
   return (
     <div className="App">
       <Home/>
-
       <RecentPlaying/>
     </div>
   );

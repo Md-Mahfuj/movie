@@ -1,23 +1,18 @@
 import React from "react";
-
 import {useState} from "react";
 import {Layout, Menu, Breadcrumb} from 'antd';
 import {Row, Col, Divider} from 'antd';
-import Trending from "../Components/Home/Trending";
-// import Data from "src/Api/HomeData/Data"
-import car from "../Assets/Home/car.png"
-import beauty from "../Assets/Home/beauty.png"
-import whachlist1 from "../Assets/Home/whachlist1.png"
-
-
+import {Trending} from './components';
+import Data from '../../api/Data';
+import Image from "./assets";
 
 
 const {Header, Content, Footer} = Layout;
-// import {Icons}  from "../Assets/Home/Icons"
+// import {Icons}  from "../assets/home/Icons"
 
 const Home = (props) => {
 
-    // const [Trending ,setTrending]=useState(Data.Trending)
+    const [trending, setTrending] = useState(Data.trending);
 
     return (
         <Layout>
@@ -59,11 +54,11 @@ const Home = (props) => {
 
                     <div className={"watchsectionimg"}>
                         <img className={"watchsectionimg1"}
-                             src={whachlist1 }/>
+                             src={Image.movie1}/>
                         <img className={"watchsectionimg1"}
-                             src={car}/>
+                             src={Image.car}/>
                         <img className={"watchsectionimg1"}
-                             src={beauty}/>
+                             src={Image.movie1}/>
 
                     </div>
                 </div>
@@ -85,7 +80,9 @@ const Home = (props) => {
                     <Col className={"md"}>
                         <div>
 
-                            <Trending Trending={"Trending"}/>
+                            <Trending
+                                trending={trending}
+                            />
 
                         </div>
                     </Col>
