@@ -5,6 +5,13 @@ import {Row, Col, Divider} from 'antd';
 import {Trending} from './components';
 import Data from '../../api/Data';
 import Image from "./assets";
+import "./Home.css"
+import "../../App.css"
+ import "./components/RecentPlaying.css"
+import "./components/CommingSoon.css"
+import "./components/Trending.css"
+import ComingSoon from "./components/ComingSoon";
+import RecentPlaying from "./components/RecentPlaying";
 
 
 const {Header, Content, Footer} = Layout;
@@ -13,6 +20,8 @@ const {Header, Content, Footer} = Layout;
 const Home = (props) => {
 
     const [trending, setTrending] = useState(Data.trending);
+    const [newmovies, setnewmovies] = useState(Data.newmovies);
+    const [recentplay, setrecentplay] = useState(Data.recentplay)
 
     return (
         <Layout>
@@ -20,7 +29,7 @@ const Home = (props) => {
             <div className={"haid"}>
 
                 <img className={"img"}
-                     src={"https://scontent.fdac25-1.fna.fbcdn.net/v/t1.0-9/s960x960/96085546_1194469644233660_6678780518735020032_o.jpg?_nc_cat=111&_nc_sid=8024bb&_nc_ohc=Pdd_PEQDE74AX-dMtBJ&_nc_ht=scontent.fdac25-1.fna&_nc_tp=7&oh=33311882000e7111b3c07c236855705f&oe=5ED7FB3F"}/>
+                     src={Image.homepc}/>
 
                 <h1 className={"Logo"}>iVISION</h1>
 
@@ -49,7 +58,7 @@ const Home = (props) => {
                         <h2 id={"premiere"}>Premiere now</h2>
                         <h2 id={"wonder"}>Wonder Woman 1984</h2>
                         <h3 id={"Action"}>Action</h3>
-                        <button className={"watchsectionbutton"}>Watch Now</button>
+                        <button className={"watchsectionbutton"}> <a href={"https://www.facebook.com/md.mahfuj.1272010"}>Watch Now</a></button>
                     </div>
 
                     <div className={"watchsectionimg"}>
@@ -78,19 +87,37 @@ const Home = (props) => {
                 </div>
                 <Row>
                     <Col className={"md"}>
-                        <div>
+                        <div className={"trendingMargin"}>
 
                             <Trending
                                 trending={trending}
                             />
 
                         </div>
+                        <Row>
+                            <Col className={"RecentPlaying"}>
+                                <div>
+                                    <RecentPlaying recentplay={recentplay}/>
+
+                                </div>
+                            </Col>
+
+
+                            <Col className={"RecentShow"}>
+
+                                <div className={"RecentShowTitle"}>
+                                    <h3 className={"RecentTitle"}>Recent Show</h3>
+                                    <h3 className={"RecentTitle2"}>More</h3>
+                                </div>
+
+                               <img  className={"RecentShowImg"} src={Image.recentshow}/>
+                            </Col>
+                        </Row>
                     </Col>
                     <Col className={"mk"}>
                         <div>
-                            <h1>he</h1>
-                            <h1>he</h1>
-                            <h1>he</h1>
+                            <ComingSoon newmovies={newmovies}/>
+
                         </div>
                     </Col>
                 </Row>

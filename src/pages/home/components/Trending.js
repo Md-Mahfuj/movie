@@ -1,4 +1,5 @@
 import React from "react";
+import "./Trending.css"
 const Trending=(props)=>{
     console.log("",props.trending);
     return(
@@ -6,7 +7,7 @@ const Trending=(props)=>{
             {
                 props.trending.map((item,i)=>
                     // eslint-disable-next-line no-unused-expressions
-                   <img src={item.url}/>
+                   <img  className={"trendingImageSize"} src={item.url}/>
                 )
             }
 

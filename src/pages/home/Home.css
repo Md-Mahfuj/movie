@@ -2,18 +2,20 @@
 
     justify-content: center;
     align-items: center;
+    width:1000px ;
+    height:400px;
 }
 
 
 .Logo{
-    margin-right:700px;
-    margin-top:-330px;
+    margin-right:760px;
+    margin-top:-370px;
     color: white;
 }
 
 .nav{
 
-    margin-top:-40px;
+    margin-top:-50px;
 
     margin-left:300px;
 }
@@ -27,6 +29,7 @@
     justify-content: space-around;
     align-items: center;
     align-content: stretch;
+    margin-left:-50px;
 
 }
 
@@ -86,8 +89,8 @@
     justify-content: space-around;
     align-items: flex-end;
     align-content: stretch;
-    margin-right:160px;
-    margin-top:180px;
+    margin-right:140px;
+    margin-top:210px;
 
 
 
@@ -113,9 +116,8 @@
 }
 
 .md{
-    /*background: red;*/
     width:53%;
-    margin-left:200px;
+    margin-left:175px;
     /*border-radius: 10px;*/
 
 
@@ -124,8 +126,10 @@
 .mk{
 
 
-    background: #61dafb;
-    width: 17.5%;
+    /*background: #61dafb;*/
+    margin-top:50px ;
+    width:21.1%;
+
 }
 
 
@@ -160,6 +164,7 @@
     font-family: Roboto;
 
     margin-left: 220px;
+    margin-top: 30px;
 }
 
 #More{
@@ -176,6 +181,7 @@
     justify-content: space-between;
     align-items: center;
     align-content: stretch;
+    margin-top: 50px;
 
 }
 
@@ -185,4 +191,54 @@
 
     height:150px;
     width:190px;
+}
+
+.trendingMargin{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.RecentPlaying{
+    /*background: #61dafb;*/
+    width: 64%;
+    margin-top: 15px;
+
+}
+
+.RecentShow{
+
+    width:36%;
+    margin-top: 15px;
+
+}
+
+
+.RecentShowTitle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    margin-top: 10px;
+}
+
+.RecentTitle{
+    margin-left: 8px;
+}
+
+.RecentTitle2{
+    margin-right:8px;
+}
+
+
+.RecentShowImg{
+
+    width: 250px;
+    height: 150px;
+    margin-top:20px;
 }

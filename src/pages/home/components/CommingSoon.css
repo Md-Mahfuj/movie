@@ -1,0 +1,81 @@
+
+
+.ComingSoonCard{
+
+    margin-bottom:5px;
+
+
+}
+
+
+
+
+
+
+
+
+.ComingSoonItem{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /*justify-content: flex-start;*/
+    align-items: center;
+    align-content: stretch;
+}
+
+
+
+
+
+.ComingSoon{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+
+
+
+
+
+    margin-top: 30px;
+
+}
+
+.ComingSoonTitle{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*flex-wrap: nowrap;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*align-content: stretch;*/
+    margin-left: 45px;
+}
+
+.ComingSoonTitle1{
+
+    font-family: Roboto;
+    font-size:16px;
+
+
+
+
+}
+
+
+.ComingSoonTitle2{
+    font-family: Roboto;
+    font-size:12px;
+    margin-top:-8px;
+
+}
+
+.ComingSoonTitle3{
+
+    margin-top:-8px;
+    font-size:12px;
+
+}

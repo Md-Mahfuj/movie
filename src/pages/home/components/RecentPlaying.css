@@ -1,0 +1,70 @@
+
+
+.RecentPlayingTitle{
+
+    margin-left:-250px;
+    font-family: Roboto;
+    /*font-size: 16px;*/
+
+
+}
+
+.recent{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /*justify-content: flex-start;*/
+    align-items: center;
+    align-content: stretch;
+    margin-left:-12px;
+}
+
+
+.RecentMovieImg{
+    margin-left:15px;
+}
+
+
+
+.RecentPlayingItem{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    margin-bottom:30px;
+    margin-left:-75px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.RecentMovieTitle{
+    margin-left:20px;
+}
+
+
+.RecentMovieTitle1{
+
+    font-family: Roboto;
+    font-size:16px;
+
+}
+
+.RecentMovieTitle2{
+
+    font-family: Roboto;
+    font-size: 10px;
+
+
+}
