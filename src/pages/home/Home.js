@@ -6,8 +6,8 @@ import {Trending} from './components';
 import Data from '../../api/Data';
 import Image from "./assets";
 import "./Home.css"
-import "../../App.css"
- import "./components/RecentPlaying.css"
+// import "../../App.css"
+import "./components/RecentPlaying.css"
 import "./components/CommingSoon.css"
 import "./components/Trending.css"
 import ComingSoon from "./components/ComingSoon";

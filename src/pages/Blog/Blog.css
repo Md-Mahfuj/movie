@@ -1,0 +1,206 @@
+
+.m{
+    background: #61dafb;
+}
+
+
+
+
+.LogoT{
+    text-decoration-color: #61dafb;
+    margin-left:100px;
+    font-family: Bodoni Bd BT;
+
+}
+
+
+
+
+.navT{
+    display: flex;
+    margin-left:850px;
+    margin-top: -50px;
+
+}
+
+.nav1{
+    margin-right: 30px;
+}
+
+
+.nav2{
+    margin-right: 30px;
+}
+
+.nav3{
+    margin-right: 30px;
+}
+
+.navButton{
+    margin-top:3px;
+    height:30px;
+text-align: center;
+
+}
+
+
+
+.travelIdeas{
+    font-family:Montserrat;
+}
+
+.Experience{
+    font-family:Montserrat;
+
+
+}
+
+
+
+
+.firstLayout{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: center;
+    align-content: stretch;
+    margin-left:150px;
+
+}
+.firstLayoutImg{
+
+    margin-top: 40px;
+    height: 480px;
+    width: 800px;
+
+}
+
+.buttonS{
+    background: green;
+}
+
+/*-----------------*/
+
+
+.blogLayout{
+    margin-top: 100px;
+}
+
+
+
+.blogs{
+    display: flex;
+
+    margin-left: 150px;
+}
+
+.r{
+    margin-top:60px;
+}
+
+.blogsImg{
+
+    margin-left: 150px;
+    margin-bottom: 50px;
+
+}
+
+.More{
+    margin-left:650px;
+    margin-top:20px;
+}
+
+
+
+/* blog post*/
+
+.postTitle{
+    margin-left: 150px;
+    margin-top:50px
+}
+
+
+.postCard{
+    margin-left:95px;
+    margin-top:50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+
+
+}
+
+.Date{
+
+    margin-top:-10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+}
+
+
+
+.footer1{
+
+    height:150px;
+    background:cyan;
+
+}
+
+.SubscribeText1{
+        margin-left:420px;
+
+}
+
+.SubscribeText{
+
+    color: white;
+}
+
+.Subscribesarch{
+    height:30px;
+    width:300px;
+    margin-left:470px;
+    margin-top: 50px;
+
+
+}
+.SubscribeButton{
+    height:30.5px;
+    margin-top:50px;
+
+}
+
+
+
+.contactBlog{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.contactBlog1{
+    margin-right: 350px;
+}
+
+.contactBlog2{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+.ContactUsB{
+    margin-bottom:40px;
+}
