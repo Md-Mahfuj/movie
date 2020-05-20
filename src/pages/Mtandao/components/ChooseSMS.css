@@ -1,0 +1,138 @@
+
+
+
+
+
+.Choose {
+    margin-top:100px;
+}
+
+
+
+
+.SMSTitle{
+
+
+    margin-left: 520px;
+    color: #383784;
+}
+
+
+.Hr2{
+    border: 3px solid #ED1C24;
+    width:72px;
+    margin-top: -7px;
+
+}
+
+.ChooseItem{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    margin-top:70px;
+}
+
+
+
+
+
+
+.ChooseDetails{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    margin-bottom: 30px;
+}
+
+.ChooseImg{
+    margin-right:10px;
+}
+
+
+
+
+
+
+
+/*work*/
+
+
+
+.work{
+    margin-top: 50px;
+}
+
+.SMSTitle1{
+
+
+    margin-left: 540px;
+    color: #383784;
+}
+
+
+
+.Hr3{
+    border: 3px solid #ED1C24;
+    width:60px;
+    margin-right:660px;
+    margin-top: -7px;
+}
+
+
+.videoImg{
+    width:800px;
+    height: 352px;
+
+    margin-top:80px;
+    margin-left:280px;
+
+
+
+
+}
+
+
+.freeTrial{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    margin-top: 50px;
+}
+
+
+.freeTrialSection{
+    margin-left:25px;
+}
+
+.freeTitle{
+    color: #383784;
+}
+
+
+
+.freeTrialInput{
+    border: #4BCF3D solid 2px;
+}
+
+
+.freeTrialButton{
+
+    background: #4BCF3D;
+    border-radius:10px;
+    color: white;
+    height:32px;
+    width:90px;
+    margin-left:-5px;
+}
+
+
+

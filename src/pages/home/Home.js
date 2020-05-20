@@ -12,6 +12,7 @@ import "./components/CommingSoon.css"
 import "./components/Trending.css"
 import ComingSoon from "./components/ComingSoon";
 import RecentPlaying from "./components/RecentPlaying";
+import {Link} from "react-router-dom";
 
 
 const {Header, Content, Footer} = Layout;
@@ -39,7 +40,7 @@ const Home = (props) => {
 
                     <ul>
 
-                        <li className={'ms'}>Shows</li>
+                        <li className={'ms'}> >Shows</li>
                         <li className={'ms'}>Movies</li>
                         <li className={'ms'}>Movies</li>
 

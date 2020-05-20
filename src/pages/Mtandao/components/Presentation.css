@@ -1,0 +1,79 @@
+
+.presentation{
+    height:650px;
+    width: 100%;
+}
+
+.LogoImg{
+    margin-top:-1245px ;
+    height:60px;
+    margin-left:50px;
+}
+.Mnav{
+    display: flex;
+    margin-top:-650px;
+    margin-left:200px;
+
+}
+
+.navTitle1{
+    margin-left: 40px;
+}
+
+.navTitle2{
+    margin-left: 40px;
+
+}
+
+.navTitle3{
+    margin-left:200px;
+}
+
+.navTitle4{
+    margin-left:40px;
+    /*font-family: Cabin;*/
+    /*font-size: 16px;*/
+}
+
+.navTitle5{
+    margin-left:40px;
+}
+
+.navTitle6{
+    background: #FF882B;
+    margin-left: 40px;
+    color: white;
+}
+.loginImg{
+    height:20px;
+    width:25px;
+    margin-top:5px;
+    margin-left: 2px;
+}
+
+.DownloadButton{
+    background: #4BCF3D;
+    color: white;
+}
+
+
+.DownloadButtonImg{
+    height:18px;
+    width: 18px;
+    margin-left:5px;
+
+
+}
+
+.ApiSection{
+    margin-left: 150px;
+    margin-top: 200px;
+}
+.ApiText{
+    color: white;
+}
+
+.ApiP{
+    color: #FFB073;
+    margin-bottom: 30px;
+}

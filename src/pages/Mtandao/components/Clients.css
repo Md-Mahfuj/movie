@@ -1,0 +1,107 @@
+
+.clientHr{
+    border: 3px solid #ED1C24;
+    width:60px;
+    margin-right:635px;
+    margin-top: -7px;
+}
+
+
+.ClientTitle{
+    color: #383784;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+}
+
+
+
+.ClientLogo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.ClientLogo1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+
+.ClientLogo2{
+}
+
+.LogoTitle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    margin-top: 30px;
+}
+
+
+
+.getStarted{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    margin-top:100px
+
+}
+
+
+.getStartedText{
+    margin-left: 150px;
+}
+
+
+.getStartedButton{
+    margin-right:150px;
+    width: 188px;
+    height: 56px;
+    background: #4BCF3D;
+    color: white;
+    font-family: Cabin;
+    font-size: 19px;
+    border-radius:8px;
+}
+
+.getStartedText1{
+    color: #383784;
+}
+
+
+.Partnars{
+    margin-top: 100px;
+}
+
+.PartnarLogo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+}

@@ -1,0 +1,302 @@
+
+.ContactSection{
+    margin-top: 100px;
+}
+
+
+
+
+.ContactHr{
+    border: 3px solid #ED1C24;
+    width:60px;
+    margin-right:635px;
+    margin-top: -7px;
+}
+
+.ContactTitle{
+    color: #383784;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+}
+
+.Map{
+
+    margin-left: 120px;
+    margin-top: 50px;
+    width: 1140px;
+    height: 280px;
+    object-fit: contain;
+
+}
+
+.ConnectAndImg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.AreaTitle{
+    margin-left:16px;
+    font-family: Cabin;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 0.36px;
+    text-align: left;
+    color: #7674af;
+
+}
+
+.AreaTitle1{
+    margin-left:25px;
+
+    font-family: Cabin;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 0.36px;
+    text-align: left;
+    color: #7674af;
+
+}
+
+
+.ic_contact{
+    width: 40px;
+    height: 40px;
+    margin-left: -16px;
+    object-fit: contain;
+}
+
+
+.ConnectH1{
+    margin-left: 70px;
+
+    margin-top: 50px;
+    font-family: Cabin;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: 0.38px;
+    text-align: left;
+    color: #383784;
+}
+
+.ConnectH4{
+    margin-left: 70px;
+    font-family: Cabin;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.65;
+    letter-spacing: 0.27px;
+    text-align: left;
+    color: #7674af;
+}
+
+.Logo_2020{
+    margin-left:50px;
+}
+
+
+.CellSection{
+
+
+
+
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-around;
+align-items: center;
+align-content: stretch;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.AboutSectionItem{
+    margin-left: 50px;
+}
+
+.CellSection1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    margin-left:-170px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.CellH2{
+    width: 133px;
+    height: 20px;
+    opacity: 0.95;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+    font-family: Cabin;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.24px;
+    text-align: left;
+    color: #383784;
+    margin-left: -180px;
+}
+
+.CellIMg2{
+
+}
+
+
+.CellSection2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    margin-left:-170px;
+    /*margin-top: 80px;*/
+    /*margin-bottom: 50px;*/
+}
+
+
+
+
+
+.CellIMg{
+    margin-left:25px;
+
+
+}
+
+.CellH4{
+    width: 43px;
+    height: 20px;
+    opacity: 0.95;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+    font-family: Cabin;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.36px;
+    text-align: left;
+    color: #7674af;
+    margin-left: -50px;
+
+}
+
+
+.CellH6{
+    width: 133px;
+    height: 20px;
+    opacity: 0.95;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+    font-family: Cabin;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.24px;
+    text-align: left;
+    color: #383784;
+    margin-left: -60px;
+
+}
+
+
+.AboutSection{
+
+    font-family: Cabin;
+    font-size: 17px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 0.27px;
+    margin-top: 18px;
+
+}
+
+
+
+.CellH{
+    width: 133px;
+    height: 20px;
+    opacity: 0.95;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+    font-family: Cabin;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.24px;
+    text-align: left;
+    color: #383784;
+    margin-left: -215px;
+}
+
+
+.CantactItem{
+    margin-top:15px;
+    margin-left: -120px;
+
+}
+
+.Facebook{
+    width: 133px;
+    height: 20px;
+    opacity: 0.95;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+    font-family: Cabin;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.24px;
+    text-align: left;
+    color: #383784;
+    margin-left: -315px;
+}
+
+.CellIMg1{
+    margin-right:-80px;
+    margin-left:85px;
+}
+
+
+
+
+
+
+
+
+.newsletterButton{
+    width: 60px;
+    height: 48px;
+    background-color: #4bcf3d;
+}
+
+
