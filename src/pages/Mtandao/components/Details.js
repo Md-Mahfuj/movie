@@ -6,7 +6,7 @@ import "./Details.css"
 
 const Details = () => {
     return (
-        <div >
+        <div  >
             <h1 className={"SMSTitle"}>What is SMS</h1>
             <hr className={"Hr"}/>
             <p className={"SMSp"}>SMS Mtandao is an online Bulk SMS platform used to send<br/>

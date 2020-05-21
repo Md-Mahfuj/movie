@@ -1,7 +1,6 @@
 import React from "react"
 import bg_image from "./bg_image.png";
 import homeImg from "./homeimg.png";
-
 import logo from "./logo.png";
 import bnImg from "./bnimg.png"
 import login from "./login.png"
@@ -19,7 +18,6 @@ import Cho7 from './Cho7.png'
 import Cho8 from './Cho8.png'
 import Cho9 from './Cho9.png'
 import Cho10 from './Cho10.png'
-import video from "./video.png"
 import EmailIcon from "./Email_Icon.png"
 import Client1 from "./Client1.png"
 import AcademicSector from "./Academic Sector.png"
@@ -33,7 +31,6 @@ import logo01 from "./logo01.png"
 import logo02 from "./logo02.png"
 import logo03 from "./logo03.png"
 
-import Map from "./map.png"
 import ic_contact from "./ic_contact_us.png"
 import ic_map from "./ic_map.png"
 import Logo_2020 from "./logo_2020.jpg"
@@ -46,6 +43,10 @@ import paper from "./paper-plane.png"
 import ic_molile from "./ic_mobile.png"
 import ic_e_mail from "./ic_e-mail.png"
 import ic_location from "./ic_location.png"
+import imge10 from "./Image 10.jpg"
+import thumnail from "./thumnail.png"
+import ic_play from "./ic_play_back.png"
+import ic_play2 from "./ic_play_forward.png"
 
 
 
@@ -81,7 +82,7 @@ const MImage={
     Cho8,
     Cho9,
     Cho10,
-    video,
+
     EmailIcon,
     Client1,
     AcademicSector,
@@ -94,7 +95,7 @@ const MImage={
     logo01,
     logo02,
     logo03,
-    Map,
+
     ic_contact,
     ic_map,
     Logo_2020,
@@ -105,7 +106,11 @@ const MImage={
     paper,
     ic_molile,
     ic_e_mail,
-    ic_location
+    ic_location,
+    imge10,
+    thumnail,
+    ic_play,
+    ic_play2
 
 
 

@@ -11,7 +11,7 @@ const Client = (props) => {
     const [Client3,setClient3]=useState(Data3.Client3)
 
     return (
-        <div>
+        <div className={"clintSection"}>
            <h1 className={'ClientTitle'}>Clients Groups</h1>
             <hr className={"clientHr"}/>
 
