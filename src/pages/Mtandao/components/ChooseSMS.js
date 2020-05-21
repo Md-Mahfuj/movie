@@ -154,8 +154,11 @@ const Choose = (props) => {
                 <h1 className={"SMSTitle1"}>See how it works</h1>
                 <hr className={"Hr3"}/>
 
-                <div>
-                    <img src={MImage.video} className={"videoImg"}/>
+                <div className={"workImgItem"}>
+                    <img src={MImage.ic_play} alt={MImage.ic_play} className={"playIcon"} />
+                    <img src={MImage.thumnail} className={"videoImg"} />
+                    <img src={MImage.ic_play2} className={"playIcon2"}/>
+
                 </div>
 
 
@@ -169,7 +172,7 @@ const Choose = (props) => {
                         <p className={"freeTitle"}>Free ###-day trial · Easy setup · Cancel any time. Check out . Terms of Use.
                         </p>
                     </div>
-                    <img src={MImage.EmailIcon}/>
+                    <img src={MImage.EmailIcon} className={"EmailIcon"} />
 
                 </div>
 

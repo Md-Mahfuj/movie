@@ -1,4 +1,8 @@
 
+.clintSection{
+    margin-top: 116px;
+}
+
 .clientHr{
     border: 3px solid #ED1C24;
     width:60px;
@@ -8,13 +12,25 @@
 
 
 .ClientTitle{
-    color: #383784;
+    /*color: #383784;*/
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
     align-content: stretch;
+
+
+    font-family: Cabin;
+    font-size: 32px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.34;
+    letter-spacing: 1.41px;
+    text-align: center;
+    color: #383784;
+
 }
 
 
@@ -26,7 +42,7 @@
     justify-content: space-around;
     align-items: center;
     align-content: stretch;
-    margin-left: 150px;
+    margin-left: 60px;
     margin-top: 50px;
 }
 
@@ -37,7 +53,7 @@
     justify-content: space-around;
     align-items: center;
     align-content: stretch;
-    margin-left: 150px;
+    margin-left: 60px;
     margin-top: 50px;
 
 }
@@ -53,6 +69,19 @@
     align-items: center;
     align-content: stretch;
     margin-top: 30px;
+
+    width: 154px;
+    height: 24px;
+
+    font-family: Cabin;
+    font-size: 19px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.37;
+    letter-spacing: 0.84px;
+    text-align: center;
+    color: #383784;
 }
 
 
@@ -64,7 +93,7 @@
     justify-content: space-between;
     align-items: center;
     align-content: stretch;
-    margin-top:100px
+    margin-top:116px
 
 }
 
@@ -75,7 +104,7 @@
 
 
 .getStartedButton{
-    margin-right:150px;
+    margin-right:110px;
     width: 188px;
     height: 56px;
     background: #4BCF3D;
@@ -91,7 +120,7 @@
 
 
 .Partnars{
-    margin-top: 100px;
+    margin-top: 116px;
 }
 
 .PartnarLogo{

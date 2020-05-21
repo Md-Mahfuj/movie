@@ -7,7 +7,7 @@ import AcademicSector from "./Academic Sector.png";
 const Client =[
     {
         image:MImage.Client1,
-        title:"Financial Sectors"
+        title:"Financial"
 
     },
     {
@@ -22,7 +22,7 @@ const Client =[
     },
     {
         image:MImage.Religious,
-        title:"Religious Institute"
+        title:"Religious"
 
     },
 
@@ -32,7 +32,7 @@ const Client =[
 const Client2 =[
     {
         image:MImage.AcademicSector,
-        title:"Academic Sector"
+        title:"Academic"
 
     },
     {
@@ -47,7 +47,7 @@ const Client2 =[
     },
     {
         image:MImage.Public,
-        title:"Public Sector"
+        title:"Public"
 
     },
 

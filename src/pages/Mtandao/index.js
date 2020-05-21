@@ -2,6 +2,7 @@
 import React from "react"
 import {Presentation,Details,Choose,Client,Contact } from "./components"
 import  "./mtandao.css"
+import CantacT from "./components/Cantact2";
 
 
 
@@ -28,6 +29,8 @@ const Mtandao = () =>{
             </div>
 
             <Contact/>
+            {/*<CantacT/>*/}
+
 
 
         </div>

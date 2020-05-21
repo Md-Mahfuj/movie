@@ -4,7 +4,7 @@
 
 
 .Choose {
-    margin-top:100px;
+    margin-top:116px;
 }
 
 
@@ -75,6 +75,18 @@
     color: #383784;
 }
 
+.playIcon{
+margin-right:50px;
+    margin-top: 60px;
+
+}
+
+.playIcon2{
+    margin-left:50px;
+    margin-top: 60px;
+
+
+}
 
 
 .Hr3{
@@ -84,13 +96,24 @@
     margin-top: -7px;
 }
 
+.workImgItem{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+
+}
+
+
 
 .videoImg{
     width:800px;
     height: 352px;
 
     margin-top:80px;
-    margin-left:280px;
+    /*margin-left:280px;*/
 
 
 
@@ -121,6 +144,10 @@
 
 .freeTrialInput{
     border: #4BCF3D solid 2px;
+}
+
+.EmailIcon{
+    margin-right:-70px;
 }
 
 

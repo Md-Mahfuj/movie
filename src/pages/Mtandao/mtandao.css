@@ -1,7 +1,22 @@
 
 .ContactSection{
-    margin-top: 100px;
+    margin-top: 116px;
 }
+
+.Map{
+
+    margin-left: 120px;
+    margin-top: 60px;
+    width: 1140px;
+    height: 280px;
+    object-fit: contain;
+
+}
+
+.WaysConnect{
+    margin-top: 60px;
+}
+
 
 
 
@@ -23,15 +38,6 @@
     align-content: stretch;
 }
 
-.Map{
-
-    margin-left: 120px;
-    margin-top: 50px;
-    width: 1140px;
-    height: 280px;
-    object-fit: contain;
-
-}
 
 .ConnectAndImg{
     display: flex;
@@ -75,7 +81,6 @@
 .ic_contact{
     width: 40px;
     height: 40px;
-    margin-left: -16px;
     object-fit: contain;
 }
 
@@ -282,12 +287,25 @@ align-content: stretch;
 }
 
 .CellIMg1{
-    margin-right:-80px;
+    margin-right:-50px;
     margin-left:85px;
 }
 
 
-
+.newsletterInput{
+    width: 150px;
+    height: 48px;
+    border: solid 1px #4bcf3d;
+    font-family: Cabin;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 0.24px;
+    text-align: left;
+    color: #7674af;
+}
 
 
 
@@ -297,6 +315,60 @@ align-content: stretch;
     width: 60px;
     height: 48px;
     background-color: #4bcf3d;
+    margin-left: -4px;
 }
 
 
+
+.RegistrationItem{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+
+}
+
+
+.Registration{
+    width: 750px;
+    margin-right:90px;
+}
+
+
+
+
+
+/*new connect*/
+
+.N{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    margin-top: 116px;
+}
+.p{
+    margin-top: -50px;
+}
+
+.I{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    margin-left: 50px;
+}
+.w{
+    margin-left:50px;
+    margin-top: -110px;
+}
+
+.footer{
+    margin-top: 116px;
+}
