@@ -16,19 +16,21 @@ const Presentation = (props) => {
             <nav className={"Mnav"}>
 
 
-                <h3 >Home</h3>
+                <h3  className={"navTitle"}>Home</h3>
                 <h3 className={"navTitle1"}>Features</h3>
                 <h3 className={"navTitle2"}>How it works</h3>
 
                 <h3 className={"navTitle3"}>Our Partnars</h3>
                 <h3 className={"navTitle4"}>Clients Groups</h3>
 
-                    <h3 className={"navTitle5"}>Login</h3>
+                    <h3 className={"navTitle05"}>Login</h3>
                     <img src={MImage.login} className={"loginImg"}/>
 
 
-                <h3 className={"navTitle5"}> Sign Up</h3>
+                {/*<button className={"navTitle5"}>Sign Up</button>*/}
+                <Button className={"navTitle5"}>Sign Up</Button>
                 <Button className={"navTitle6"}>Download API</Button>
+
 
 
             </nav>
@@ -39,10 +41,10 @@ const Presentation = (props) => {
                 <p className={"ApiP"}>Mobile devices are continuously climbing up to<br/> the top of the most compulsory device a modern human being needs to have .</p>
 
 
-                <Button  shape="round"  className={"DownloadButton"} >
+                <button  shape="round"  className={"DownloadButton"} >
                     Get started Now
                     <img className={"DownloadButtonImg"} src={MImage.bnImg}/>
-                </Button>
+                </button>
                 
 
             </div>

@@ -122,9 +122,9 @@ const Contact = () => {
 
                             <div className={"AboutSectionItem"}>
                                 <div className={"AboutSection"}>
-                                    <h3>About Us</h3>
-                                    <h3>Contact</h3>
-                                    <h3>Terms & Conditions</h3>
+                                    <h3 className={"AboutText"}>About Us</h3>
+                                    <h3 className={"AboutText"}>Contact</h3>
+                                    <h3 className={"AboutText"}>Terms & Conditions</h3>
 
                                 </div>
                                 <div className={"CellSection1"}>

@@ -355,6 +355,12 @@ align-content: stretch;
     margin-top: -50px;
 }
 
+
+.AboutText{
+    color: #383784
+
+;
+}
 .I{
     display: flex;
     flex-direction: row;
