@@ -17,8 +17,8 @@ const Choose = (props) => {
                     <div className={"ChooseDetails"}>
                         <img src={MImage.Cho1} className={"ChooseImg"}/>
                         <div>
-                            <h4  className={"ChooseText"}>Personalized Message</h4>
-                            <p className={"ChooseText"}>SMS Mtandao enables brands to get known by<br/>
+                            <h4 style={{color:"#383784"}}>Personalized Message</h4>
+                            <p style={{color:"#383784"}}>SMS Mtandao enables brands to get known by<br/>
                                 enabling them to use SenderID of their choice while<br/>
                                 sending messages to the audience.
                             </p>
@@ -31,8 +31,8 @@ const Choose = (props) => {
                     <div className={"ChooseDetails"}>
                         <img src={MImage.Cho2} className={"ChooseImg"}/>
                         <div>
-                            <h4 className={"ChooseText"}>Personalized Message</h4>
-                            <p className={"ChooseText"}>SMS Mtandao enables brands to get known by<br/>
+                            <h4 style={{color:"#383784"}}>Personalized Message</h4>
+                            <p style={{color:"#383784"}}>SMS Mtandao enables brands to get known by<br/>
                                 enabling them to use SenderID of their choice while<br/>
                                 sending messages to the audience.
                             </p>
@@ -43,8 +43,8 @@ const Choose = (props) => {
                     <div className={"ChooseDetails"}>
                         <img src={MImage.Cho3} className={"ChooseImg"}/>
                         <div>
-                            <h4 className={"ChooseText"}>Personalized Message</h4>
-                            <p className={"ChooseText"}>SMS Mtandao enables brands to get known by<br/>
+                            <h4 style={{color:"#383784"}}>Personalized Message</h4>
+                            <p style={{color:"#383784"}}>SMS Mtandao enables brands to get known by<br/>
                                 enabling them to use SenderID of their choice while<br/>
                                 sending messages to the audience.
                             </p>
@@ -55,8 +55,8 @@ const Choose = (props) => {
                     <div className={"ChooseDetails"}>
                         <img src={MImage.Cho4} className={"ChooseImg"}/>
                         <div>
-                            <h4 className={"ChooseText"}>Personalized Message</h4>
-                            <p className={"ChooseText"}>SMS Mtandao enables brands to get known by<br/>
+                            <h4 style={{color:"#383784"}}>Personalized Message</h4>
+                            <p style={{color:"#383784"}}>SMS Mtandao enables brands to get known by<br/>
                                 enabling them to use SenderID of their choice while<br/>
                                 sending messages to the audience.
                             </p>
@@ -67,8 +67,8 @@ const Choose = (props) => {
                     <div className={"ChooseDetails"}>
                         <img src={MImage.Cho5} className={"ChooseImg"}/>
                         <div>
-                            <h4 className={"ChooseText"}>Personalized Message</h4>
-                            <p className={"ChooseText"}>SMS Mtandao enables brands to get known by<br/>
+                            <h4 style={{color:"#383784"}}>Personalized Message</h4>
+                            <p style={{color:"#383784"}}>SMS Mtandao enables brands to get known by<br/>
                                 enabling them to use SenderID of their choice while<br/>
                                 sending messages to the audience.
                             </p>
@@ -85,8 +85,8 @@ const Choose = (props) => {
                     <div className={"ChooseDetails"}>
                         <img src={MImage.Cho6} className={"ChooseImg"}/>
                         <div>
-                            <h4 className={"ChooseText"}>Personalized Message</h4>
-                            <p className={"ChooseText"}>SMS Mtandao enables brands to get known by<br/>
+                            <h4 style={{color:"#383784"}}>Personalized Message</h4>
+                            <p style={{color:"#383784"}}>SMS Mtandao enables brands to get known by<br/>
                                 enabling them to use SenderID of their choice while<br/>
                                 sending messages to the audience.
                             </p>
@@ -97,8 +97,8 @@ const Choose = (props) => {
                     <div className={"ChooseDetails"}>
                         <img src={MImage.Cho7} className={"ChooseImg"}/>
                         <div>
-                            <h4 className={"ChooseText"}>Personalized Message</h4>
-                            <p className={"ChooseText"}>SMS Mtandao enables brands to get known by<br/>
+                            <h4 style={{color:"#383784"}}>Personalized Message</h4>
+                            <p style={{color:"#383784"}}>SMS Mtandao enables brands to get known by<br/>
                                 enabling them to use SenderID of their choice while<br/>
                                 sending messages to the audience.
                             </p>
@@ -109,8 +109,8 @@ const Choose = (props) => {
                     <div className={"ChooseDetails"}>
                         <img src={MImage.Cho8} className={"ChooseImg"}/>
                         <div>
-                            <h4 className={"ChooseText"}>Personalized Message</h4>
-                            <p className={"ChooseText"}>SMS Mtandao enables brands to get known by<br/>
+                            <h4 style={{color:"#383784"}}>Personalized Message</h4>
+                            <p style={{color:"#383784"}}>SMS Mtandao enables brands to get known by<br/>
                                 enabling them to use SenderID of their choice while<br/>
                                 sending messages to the audience.
                             </p>
@@ -121,8 +121,8 @@ const Choose = (props) => {
                     <div className={"ChooseDetails"}>
                         <img src={MImage.Cho9} className={"ChooseImg"}/>
                         <div>
-                            <h4 className={"ChooseText"}>Personalized Message</h4>
-                            <p className={"ChooseText"}>SMS Mtandao enables brands to get known by<br/>
+                            <h4 style={{color:"#383784"}}>Personalized Message</h4>
+                            <p style={{color:"#383784"}}>SMS Mtandao enables brands to get known by<br/>
                                 enabling them to use SenderID of their choice while<br/>
                                 sending messages to the audience.
                             </p>
@@ -133,8 +133,8 @@ const Choose = (props) => {
                     <div className={"ChooseDetails"}>
                         <img src={MImage.Cho10} className={"ChooseImg"}/>
                         <div>
-                            <h4 className={"ChooseText"}>Personalized Message</h4>
-                            <p className={"ChooseText"}>SMS Mtandao enables brands to get known by<br/>
+                            <h4 style={{color:"#383784"}}>Personalized Message</h4>
+                            <p style={{color:"#383784"}}>SMS Mtandao enables brands to get known by<br/>
                                 enabling them to use SenderID of their choice while<br/>
                                 sending messages to the audience.
                             </p>

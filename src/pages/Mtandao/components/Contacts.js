@@ -1,18 +1,10 @@
 import React from "react";
-
 import "../mtandao.css"
-
 import MImage from "../assets";
-import {Row, Col, Divider} from 'antd';
-import ic_fb from "../assets/ic_fb.png";
-import ic_twitter from "../assets/ic_twitter.png";
-import ic_instagram from "../assets/ic_instagram.png";
-import ic_e_mail from "../assets/ic_e-mail.png";
-import ic_molile from "../assets/ic_mobile.png";
+import {Row, Col} from 'antd';
 import RegistrationForm from "./M_From";
 
 
-// import RegistrationForm from "./M_From";
 
 
 const Contact = () => {
@@ -122,9 +114,9 @@ const Contact = () => {
 
                             <div className={"AboutSectionItem"}>
                                 <div className={"AboutSection"}>
-                                    <h3 className={"AboutText"}>About Us</h3>
-                                    <h3 className={"AboutText"}>Contact</h3>
-                                    <h3 className={"AboutText"}>Terms & Conditions</h3>
+                                    <h3 style={{color:"#383784"}}>About Us</h3>
+                                    <h3 style={{color:"#383784"}} >Contact</h3>
+                                    <h3 style={{color:"#383784"}}>Terms & Conditions</h3>
 
                                 </div>
                                 <div className={"CellSection1"}>
@@ -177,7 +169,7 @@ const Contact = () => {
                         <Col span={6}>
                             <div>
 
-                                <h2>Subscribe to our newsletter</h2>
+                                <h2 style={{color:"#383784"}}>Subscribe to our newsletter</h2>
                                 <input className={"newsletterInput"} placeholder={"Enter your email"}/>
                                 <button className={"newsletterButton"}><img src={MImage.paper}/></button>
 

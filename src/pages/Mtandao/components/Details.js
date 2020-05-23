@@ -48,13 +48,13 @@ const Details = () => {
             <div className={"Try"}>
                 <img src={MImage.Try} className={"TryImg"}/>
                 <div className={"TryItem"}>
-                    <h1 className={"TryText"}>Try it now !</h1>
-                    <p  className={"TryText"} >Get notified about company updates, news and blog posts.<br/>
+                    <h1 style={{color:"#383784"}}>Try it now !</h1>
+                    <p  style={{color:"#383784"}}>Get notified about company updates, news and blog posts.<br/>
                         We hate spam
                     </p>
                     <input type={"Email"} placeholder={"email"} className={"Email"}  />
                     <Button className={"GetButton"}>Get Started</Button>
-                    <p  className={"TryText"}>Easy setup . Check out Terms of Use.</p>
+                    <p  style={{color:"#383784"}}>Easy setup . Check out Terms of Use.</p>
 
                 </div>
 

@@ -36,7 +36,7 @@ const Presentation = (props) => {
             </nav>
 
             <div className={"ApiSection"}>
-                <h1 className={"ApiText"}>Connect to SMS Mtandao<br/>
+                <h1 style={{color:"white"}}>Connect to SMS Mtandao<br/>
                     using API</h1>
                 <p className={"ApiP"}>Mobile devices are continuously climbing up to<br/> the top of the most compulsory device a modern human being needs to have .</p>
 

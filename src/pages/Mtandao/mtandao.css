@@ -165,9 +165,7 @@ align-content: stretch;
     margin-left: -180px;
 }
 
-.CellIMg2{
 
-}
 
 
 .CellSection2{
@@ -356,11 +354,11 @@ align-content: stretch;
 }
 
 
-.AboutText{
-    color: #383784
+/*.AboutText{*/
+/*    color: #383784*/
 
-;
-}
+/*;*/
+/*}*/
 .I{
     display: flex;
     flex-direction: row;
