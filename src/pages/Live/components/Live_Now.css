@@ -1,0 +1,59 @@
+
+
+.p{
+
+    margin-top:1px;
+    margin-left:5px;
+    background: green;
+}
+
+.live-section1{
+
+    width:23%;
+
+
+}
+
+.live-section2{
+
+    width:53%;
+
+}
+
+.live-section3{
+
+    width:24%;
+
+
+}
+
+.live-now-card{
+    background:#D6EAF8;
+    margin-bottom:50px;
+}
+
+.live-time{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+}
+
+
+.input-question-section{
+
+
+    border:solid 5px red;
+}
+
+.input-question{
+
+    height: 150px;
+    width: 150px;
+    background:#D6EAF8;
+    border-style: none;
+
+
+}

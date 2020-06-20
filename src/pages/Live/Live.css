@@ -1,0 +1,107 @@
+
+.nav-live{
+    background:#D6EAF8;
+    height: 50px;
+
+}
+
+
+
+.nav-live lu{
+    list-style: none;
+    display: flex;
+    margin-left:30px;
+
+
+}
+
+.nav-live lu li{
+    margin-top:11px;
+
+
+}
+
+.nav-live lu a{
+    color: black;
+
+
+}
+.dot{
+    height:8px;
+    width:8px;
+    margin-right:3px;
+    background-color:red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.nav-live lu a:hover{
+    color:red;
+
+
+}
+.class-routine1{
+    margin-left:70px;
+
+
+}
+
+.class-routine2{
+    margin-left: 800px;
+}
+
+.my-courses-title{
+    margin-top: 50px;
+    margin-left:100px;
+    margin-bottom:-5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*my course section*/
+.my-courses-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: stretch;
+    margin-top:50px;
+    margin-left:50px ;
+    margin-right: 50px;
+
+}
+.coaching-name{
+  margin-left: 10px;
+}
+
+.my-courses-item-card{
+    background:#D6EAF8 ;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.my-courses-item-more{
+    margin-left: 125px;
+
+}
+
+.my-courses-subject1{
+    margin:10px;
+}
+
+
+
+/*available-courses*/
+
+
+.my-available-courses{
+    margin-bottom: 50px;
+}
+
+.available-courses{
+    display: flex;
+    margin-left:50px;
+    margin-right: 50px;
+    margin-top:50px;
+}
