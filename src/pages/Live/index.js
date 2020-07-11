@@ -4,6 +4,10 @@ import axios from "axios";
 
 import "./Live.css"
 import Data from "../Live/assets/api/Data"
+import { List, Avatar } from 'antd';
+
+
+
 
 import { L_Button,My_Courses,Availeable_Courses,Live_Now} from "./components/index"
 
@@ -21,9 +25,11 @@ const Live = (props) =>{
     const [blogs, setBlogs] = useState([]);
 
     function getBlogData() {
-        const client=axios.get("http://127.0.0.1:5000/Courses")
+        const client=axios.get("http://127.0.0.1:5000/courseDetails/1")
             .then(function(response){
                 console.log('getBlogData',response.data);
+                setBlogs(response.data);
+
 
             });
     }
@@ -64,6 +70,30 @@ const Live = (props) =>{
            <div>
                <Live_Now/>
            </div>
+
+
+
+
+            <div >
+
+                <h1> my name is a amahfuj</h1>
+                <List
+                    itemLayout="horizontal"
+                    dataSource={Data.available}
+                    renderItem={item => (
+                        <List.Item>
+
+                            {item.coaching_name}
+
+                        </List.Item>
+                    )}
+                />
+
+
+
+
+
+            </div>
 
 
 

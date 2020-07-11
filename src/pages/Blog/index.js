@@ -11,6 +11,7 @@ import BlogPost from "./components/BlogPost";
 import FooterT from "./components/Footer";
 
 
+
 const Index = (props) => {
 
     const [blogs,setblogs]=useState(Data2.Blog);
